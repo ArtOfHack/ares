@@ -1,0 +1,32 @@
+Ares has 19 power level available.
+They are:
+low or l
+medium or m
+high or h
+mega or M
+mega_low or ml
+mega_medium or mm
+mega_high or ml
+super or S
+super_mega_low or sml
+super_mega_medium or smm
+super_mega_high or smh
+hyper or H
+hyper_super_mega_low or hsml
+hyper_super_mega_medium or hsmm
+hyper_super_mega_high or hsmh
+ultra or U
+ultra_hyper_super_mega_low or uhsml
+ultra_hyper_super_mega_medium or uhsmm
+ultra_hyper_super_mega_high or uhsmh
+
+***BE WARNED, LOW, MEDIUM, AND HIGH ARE THE ONLY ONES THAT HAVE BEEN TESTED. MAKE SURE YOUR COMPUTER CAN HANDLE THE REST BEFORE ENABLING THEM***
+
+To enable a power level, go to step 1 in "power_menu.py" 
+then uncomment(meaning take out the number sign/hashtag/pound sign)the level you wish to use.
+Then go to step 2 and uncomment in power_menu.py the "global for your level.
+After that go down and uncomment the: if data == "power_level":
+and uncomment the one under as well: data = "power_level"
+
+When starting ares, and come up to the "What power level would you like to send to the server",
+type the whole power level, example (ultra_hyper_super_mega_high) or the aberration, example (uhsmh).
