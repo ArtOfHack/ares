@@ -1,4 +1,4 @@
-
+#!/usr/bin/python
 
 
 low = str(range(1, 1000))
