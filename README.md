@@ -6,4 +6,4 @@
 <h4>If you would like to help me, by all means, go right away.</h4>
 <h4>Lets make Ares, The God of dos, the best denial of service made.</h4>
 <h4>I am looking into making an apk(android) version of Ares as well.</h4>
-Ares was made for ethical hacking. i am not responsible for your action nor is anyone else 
+Ares was made for ethical hacking. i am not responsible for your action, nor is anyone else 
