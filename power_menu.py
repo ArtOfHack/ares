@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-
+#STEP 1
 low = str(range(1, 1000))
 medium = str(range(1, 2500))
 high = str(range(1, 5000))
@@ -29,7 +29,7 @@ def menu():
         break
         
 
-
+#STEP 2
 def power():
     global data
     global low
