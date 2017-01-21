@@ -2,6 +2,7 @@
 <h4>Ares is a fully customized Denial of service tool for ethical hackers.</h4>
 <h2>Only tried on Linux, not sure about the rest of os's.</h2>
 <h2>Read the "MENU" to enable different type of "power" levels.</h2>
+<h2>INTRODUCING WEAPONS!!!</h2>
 <h2>Ares was created by a beginner programmer, so the code looks nasty.</h2>
 <h4>If you would like to help me, by all means, go right away.</h4>
 <h4>Lets make Ares, The God of dos, the best denial of service made.</h4>
