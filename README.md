@@ -1,5 +1,6 @@
 # Ares, the God of Dos.
 <h4>Ares is a fully customized Denial of service tool for ethical hackers.</h4>
+<h4> A swift army knife for dos.</h4>
 <h2>Only tried on Linux, not sure about the rest of os's.</h2>
 <h2>Read the "MENU" to enable different type of "power" levels.</h2>
 <h2>INTRODUCING WEAPONS!!!</h2>
